@@ -1,0 +1,141 @@
+body {
+	background-color: white;
+	font-size: 130%;
+}
+
+
+* {
+	box-sizing: border-box;
+	margin-top: 0px;
+}
+
+
+h1 {
+	color: black;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+  	margin-bottom: 30px;
+ 	margin-top: 40px;
+}
+
+
+p {
+	padding-bottom:  25px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 55px;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+}
+	#p1 {
+    	border: 1px solid black;
+	 	background-color: #3C3D3E;
+	}
+	#p2 {
+   		border: 1px solid black;
+	 	background-color: #3C3D3E;
+	}
+	#p3 {
+    	border: 1px solid black;
+	 	background-color: #3C3D3E;
+	}
+	#tab1 {
+		position: relative;
+		border: 1px solid black;
+		background-color: #fa3c4c;
+		padding: 5px;
+		width: 120px;
+		height: 35px;
+		float: right;
+		top:  0px;
+		right: 0px;
+		text-align: center;
+		font-weight: bolder;
+		color: black;
+	}
+	#tab2 {
+		position: relative;
+		border: 1px solid black;
+		background-color: #ffc300;
+		padding: 5px;
+		width: 120px;
+		height: 35px;
+		float: right;
+		top:  0px;
+		right: 0px;
+		text-align: center;
+		font-weight: bolder;
+		color: black;
+	}
+	#tab3 {
+	position: relative;
+		border: 1px solid black;
+		background-color: #0084ff;
+		padding: 5px;
+		width: 120px;
+		height: 35px;
+		float: right;
+		top:  0px;
+		right: 0px;
+		text-align: center;
+		font-weight: bolder;
+		color: black;
+	}
+
+h2 {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.row {
+	width: 100%;
+}
+@media (min-width: 992px) {
+	.col-lg-1, .col-lg-2, .col-lg-3{
+  		float: left;
+	}
+	.col-lg-1 {
+  		width: 33.33%;
+	}
+	.col-lg-2 {
+    	width: 33.33%;
+	}
+	.col-lg-3 {
+    	width: 33.33%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-1, .col-md-2, .col-md-3 {
+ 		float: left;
+    	position: relative;
+  	}
+  	.col-md-1 {
+  		width: 50%;
+  	}
+  	.col-md-2 {
+    	width: 50%;
+  	}
+  	.col-md-3 {
+   	 width: 100%;
+  	}
+}
+@media (max-width: 767px) {
+	.col-sm-1, .col-sm-2, .col-sm-3 {
+ 		float: left;
+    	position: relative;
+  	}
+  	.col-sm-1 {
+  		width: 100%;
+  	}
+  	.col-sm-2 {
+    	width: 100%;
+  	}
+  	.col-sm-3 {
+   	 width: 100%;
+  	}
+}
